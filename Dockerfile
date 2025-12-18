@@ -1,4 +1,4 @@
-FROM python 3.6
+FROM python:3.6
 WORKDIR /var/www
 COPY . .
 RUN pip install Flask scikit-learn
